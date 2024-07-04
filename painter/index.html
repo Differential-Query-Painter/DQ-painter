@@ -1,0 +1,713 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)http://6.869.csail.mit.edu/fa19/schedule.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/chalkduster');
+</style>
+<script src="./sm/assets/teaser-data.js"></script>
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation.&#39;">
+    <link rel="icon" href="./pics/wis_logo.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting.&#39;">
+    <link rel="icon" href="./static/pics/look.png">
+
+</head>
+
+<!-- 主体 -->
+
+<body>
+    <p class="title">Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting</p>
+
+    <p class="author">
+        <span class="author">Lingyu
+                Liu</a>&nbsp;<sup>1</sup></span>
+        <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=lDChiR4AAAAJ&hl=zh-CN">Yaxiong
+                Wang</a>&nbsp;<sup>2</sup></span>
+        <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=OinO73IAAAAJ&hl=zh-CN">Li
+                Zhu</a>&nbsp;<sup>1</sup></span>
+        <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=W2b08EUAAAAJ&hl=zh-CN">Lizi
+                Liao</a>&nbsp;<sup>3</sup></span>
+        <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=XT17oUEAAAAJ&hl=zh-CN">Zhedong
+                Zheng</a>&nbsp;<sup>4</sup></span>
+    </p>
+    <table border="0" align="center" class="affiliations" width="1200px">
+        <tbody align="center">
+            <tr>
+                <td style="text-align: center; width: 20%"><sup>1</sup>Xi'an Jiaotong University</td>
+                <td style="text-align: center; width: 20%"><sup>2</sup>Hefei University of Technology</td>
+                <td style="text-align: center; width: 20%"><sup>3</sup>Singapore Management University</td>
+                <td style="text-align: center; width: 20%"><sup>4</sup>University of Macau</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="section">&nbsp;</p>
+
+
+    <div class="container">
+
+        <div class="container" style="min-height: 384px">
+            <div id="resultCarousel0" class="carousel slide" data-ride="carousel" data-interval="8000">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/l1.jpg"></th>
+                                    <th><img width="384" src="./static/results/paint/l1.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/f1.png"></th>
+                                    <th><img width="384" src="./static/results/paint/f1.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/w1.jpg"></th>
+                                    <th><img width="384" src="./static/results/paint/w1.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/l2.jpg"></th>
+                                    <th><img width="384" src="./static/results/paint/l2.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/f2.png"></th>
+                                    <th><img width="384" src="./static/results/paint/f2.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="384" src="./static/results/img/w2.jpg"></th>
+                                    <th><img width="384" src="./static/results/paint/w2.gif"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#resultCarousel0" role="button" data-slide="prev">
+                    <div class="slider-navigation-previous" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="45.63,75.8 0.375,38.087 45.63,0.375 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#resultCarousel0" role="button" data-slide="next">
+                    <div class="slider-navigation-next" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="0.375,0.375 45.63,38.087 0.375,75.8 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <p class="section">&nbsp;</p>
+        <p style="text-align: center;"><span class="section"><b>Abstract</b></span> </p>
+        <p style="text-align: justify; display: flex; justify-content: center; max-width: 800px; margin:auto">
+            In this work, we delve into the realm of automatic oil painting, which is to generate the painting
+            stroke like human artists. A pivotal challenge lies in mitigating the duplicate and common-place strokes,
+            which requires following strokes to make up.Inspired by the human drawing process, i.e., look, compare and
+            draw, we have embedded
+            differential image analysis within a neural oil painting model, enabling a refined focus on the incremental
+            effects of
+            consecutive brushstrokes. This simple and effective integration heightens the model sensitivity to local
+            detail, culminating in a
+            more
+            sophisticated and nuanced rendering methodology.
+            Following this spirit, we introduce the Differential Query Transformer (DQ-Transformer), a new
+            architecture
+            designed to leverage differentially derived image representations, augmented with positional
+            information,
+            serving as queries for informed stroke prediction.
+            Coupled with adversarial training, the proposed framework largely enhances stroke prediction precision
+            and,
+            consequently, the fidelity of the synthesized images.
+            Extensive qualitative evaluations, reinforced by a controlled user study, provide empirical evidence
+            validating the superiority of our proposed framework over other competitive approaches. These
+            assessments
+            highlight marked improvements in both visual realism and artistic authenticity.
+        </p>
+        <p class="section">&nbsp;</p>
+
+        <p class="section"><b>Methodology</b></p>
+        <div style="text-align: center">
+            <img src="./static/pics/f1.jpg" alt="" width="1080px" style="max-width: 100%; height: auto;" />
+        </div>
+        <p style="text-align: justify;">
+            Given the canvas image and the target image generated by renderer, we first obtain their
+            differential image by simply minusing the two inputs. Three local encoders comprised of
+            convolutional neural networks are employed to extract image features with positional
+            information.
+            DQ-Transformer has two components, i.e., DQ-encoder and DQ-decoder.
+            These visual features are concatenated and then fed to the DQ-encoder to obtain the
+            fused feature.
+            Then we transform the differential image features into query tokens to query the key and value
+            generated by the fused feature.
+            Finally, DQ-Transformer outputs a set of predicted strokes accompanied by their respective
+            confidence.
+            Rendering these strokes onto the canvas yields the predicted image. The discriminator
+            operates by treating the target images as real samples and the predicted images as
+            fake samples.
+        </p>
+
+
+        <p class="section">&nbsp;</p>
+        <p class="section"><b>Inference</b></p>
+
+
+        <div style="text-align: center">
+            <img src="./static/pics/dd.jpg" alt="" width="1080px" style="max-width: 100%; height: auto;" />
+        </div>
+        <p style="text-align: justify;">
+            We present four intermediate stages of oil painting according to a real target image (left). Each stage is
+            illustrated with a diagram, where the top left corner shows the current canvas, the top right corner
+            displays the corresponding differential image for that stage, and the bottom side presents the painting
+            result inferred by our model. We observe that since we explicitly compares the content in the differential
+            image during training, our model is prone to adding strokes in areas where discrepancies are more
+            pronounced, thereby progressively reducing the content within the differential images.
+        </p>
+
+
+        <p class="section">&nbsp;</p>
+        <p class="section"><b>Results on various datasets</b></p>
+
+        <div class="container" style="min-height: 350px">
+            <p style="text-align: center; font-size: 150%">Paintings on Landscapes</p>
+            <div id="resultCarousel1" class="carousel slide" data-ride="carousel" data-interval="8000">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/l3.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/l3.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/l3.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/l4.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/l4.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/l4.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/l5.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/l5.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/l5.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/l6.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/l6.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/l6.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#resultCarousel1" role="button" data-slide="prev">
+                    <div class="slider-navigation-previous" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="45.63,75.8 0.375,38.087 45.63,0.375 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#resultCarousel1" role="button" data-slide="next">
+                    <div class="slider-navigation-next" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="0.375,0.375 45.63,38.087 0.375,75.8 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="container" style="min-height: 384px">
+            <p style="text-align: center; font-size: 150%">Paintings on FFHQ</p>
+            <div id="resultCarousel2" class="carousel slide" data-ride="carousel" data-interval="8000">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/f3.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f3.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/f3.png"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/f4.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f4.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/f4.png"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/f5.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f5.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/f5.png"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/f6.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f6.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/f6.png"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#resultCarousel2" role="button" data-slide="prev">
+                    <div class="slider-navigation-previous" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="45.63,75.8 0.375,38.087 45.63,0.375 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#resultCarousel2" role="button" data-slide="next">
+                    <div class="slider-navigation-next" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="0.375,0.375 45.63,38.087 0.375,75.8 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="container" style="min-height: 350px">
+            <p style="text-align: center; font-size: 150%">Paintings on Wiki Art</p>
+            <div id="resultCarousel3" class="carousel slide" data-ride="carousel" data-interval="8000">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/w3.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/w3.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/w3.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/w4.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/w4.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/w4.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/w5.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/w5.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/w5.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="carousel-item">
+                        <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <th><img width="350" src="./static/results/img/w6.jpg"></th>
+                                    <th><img width="350" src="./static/results/paint/w6.gif"></th>
+                                    <th><img width="350" src="./static/results/paint/w6.jpg"></th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="caption">Target</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Animation</div>
+                                    </th>
+                                    <th>
+                                        <div class="caption">Painting Result</div>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#resultCarousel3" role="button" data-slide="prev">
+                    <div class="slider-navigation-previous" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="45.63,75.8 0.375,38.087 45.63,0.375 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#resultCarousel3" role="button" data-slide="next">
+                    <div class="slider-navigation-next" style="top: 65%">
+                        <svg viewBox="0 0 50 80" xml:space="preserve">
+                            <polyline fill="white" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round"
+                                points="0.375,0.375 45.63,38.087 0.375,75.8 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div style="text-align: center">
+            <p>
+                This page was adapted from <a href="https://github.com/pnp-diffusion/pnp-diffusion.github.io">this</a>
+                source code.
+            </p>
+        </div>
+
+
+</body>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WLX2Z5QLG8');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
+            $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
+        }
+
+        $(window).on("scroll", function () {
+            localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
+        });
+
+    });
+</script>
+
+<script>
+    function prompt_on(prompt_element) {
+        prompt_element.classList.add("caption-active");
+    }
+
+    function prompt_off(prompt_element) {
+        prompt_element.classList.remove("caption-active");
+    }
+
+    function toggle_prompt(active_prompt_id, inactive_prompt_ids, result_id) {
+        let active_prompt = document.getElementById(active_prompt_id);
+        prompt_on(active_prompt);
+        for (let i = 0; i < inactive_prompt_ids.length; i++) {
+            let inactive_prompt = document.getElementById(inactive_prompt_ids[i]);
+            prompt_off(inactive_prompt);
+        }
+
+        let result = document.getElementById(result_id);
+        result.src = file_paths[active_prompt_id];
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</html>
