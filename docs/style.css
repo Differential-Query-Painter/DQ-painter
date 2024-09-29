@@ -88,8 +88,8 @@ sup {
 
 .title {
 	font-family: Google Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-	font-size: 250%;
-	font-weight: 500;
+	font-size: 280%;
+	font-weight: 650;
 	display: block;
 	text-align: center;
 	margin-top: 14px;
@@ -100,7 +100,7 @@ sup {
 	line-height: 1.5em;
 	margin-left: auto;
     margin-right: auto;
-	max-width: 1200px;
+	max-width: 1600px;
 }
 
 table.affiliations {
