@@ -33,37 +33,9 @@
 <!-- 主体 -->
 
 <body>
-    <div class="container_title">
-        <div style="width: auto;">
-            <p class="title publication-title">Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting</p>
-        </div>
-        <!-- <p class="author">
-            <span class="author">Lingyu
-                    Liu</a>&nbsp;<sup>1</sup></span>
-            <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=lDChiR4AAAAJ&hl=zh-CN">Yaxiong
-                    Wang</a>&nbsp;<sup>2</sup></span>
-            <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=OinO73IAAAAJ&hl=zh-CN">Li
-                    Zhu</a>&nbsp;<sup>1</sup></span>
-            <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=W2b08EUAAAAJ&hl=zh-CN">Lizi
-                    Liao</a>&nbsp;<sup>3</sup></span>
-            <span class="author"><a target="_blank" href="https://scholar.google.com/citations?user=XT17oUEAAAAJ&hl=zh-CN">Zhedong
-                    Zheng</a>&nbsp;<sup>4</sup></span>
-        </p>
-        <table border="0" align="center" class="affiliations" width="1600px">
-            <tbody align="center">
-                <tr>
-                    <td style="text-align: center; width: 20%; font-size: 13pt;"><sup>1</sup>Xi'an Jiaotong University</td>
-                    <td style="text-align: center; width: 20%; font-size: 13pt;"><sup>2</sup>Hefei University of Technology</td>
-                    <td style="text-align: center; width: 20%; font-size: 13pt;"><sup>3</sup>Singapore Management University</td>
-                    <td style="text-align: center; width: 20%; font-size: 13pt;"><sup>4</sup>University of Macau</td>
-                </tr>
-            </tbody>
-        </table> -->
-        <p class="section">&nbsp;</p>
-    </div>
-
-
-
+    <p class="title ">Look, Compare and Draw: Differential Query Transformer for Automatic Oil
+        Painting</p>
+    <p class="section">&nbsp;</p>
     <div class="container">
 
         <div class="container" style="min-height: 384px">
@@ -213,28 +185,21 @@
         <p class="section">&nbsp;</p>
         <p style="text-align: center;"><span class="section"><b>Abstract</b></span> </p>
         <p style="text-align: justify; display: flex; justify-content: center; max-width: 1000px; margin:auto">
-            In this work, we delve into the realm of automatic oil painting, which is to generate the painting
-            stroke like human artists. A pivotal challenge lies in mitigating the duplicate and common-place strokes,
-            which requires following strokes to make up.Inspired by the human drawing process, i.e., look, compare and
-            draw, we have embedded
-            differential image analysis within a neural oil painting model, enabling a refined focus on the incremental
-            effects of
-            consecutive brushstrokes. This simple and effective integration heightens the model sensitivity to local
-            detail, culminating in a
-            more
-            sophisticated and nuanced rendering methodology.
-            Following this spirit, we introduce the Differential Query Transformer (DQ-Transformer), a new
-            architecture
-            designed to leverage differentially derived image representations, augmented with positional
-            information,
-            serving as queries for informed stroke prediction.
-            Coupled with adversarial training, the proposed framework largely enhances stroke prediction precision
-            and,
-            consequently, the fidelity of the synthesized images.
-            Extensive qualitative evaluations, reinforced by a controlled user study, provide empirical evidence
-            validating the superiority of our proposed framework over other competitive approaches. These
-            assessments
-            highlight marked improvements in both visual realism and artistic authenticity.
+            This work introduces a new approach to automatic oil painting that emphasizes the creation of dynamic and
+            expressive brushstrokes. A pivotal challenge lies in mitigating the duplicate and common-place strokes,
+            which often lead to less aesthetic outcomes. Inspired from the human painting process, i.e., observing,
+            comparing, and drawing, we incorporate differential image analysis into a neural oil painting model,
+            allowing the model to effectively concentrate on the incremental impact of successive brushstrokes. To
+            operationalize this concept, we propose the Differential Query Transformer (DQ-Transformer), a new
+            architecture that leverages differentially derived image representations enriched with positional encoding
+            to guide the stroke prediction process.
+            This integration enables the model to maintain heightened sensitivity to local details, resulting in more
+            refined and nuanced stroke generation. Furthermore, we incorporate adversarial training into our framework,
+            enhancing the accuracy of stroke prediction and thereby improving the overall realism and fidelity of the
+            synthesized paintings.
+            Extensive qualitative evaluations, complemented by a controlled user study, validate that our DQ-Transformer
+            surpasses existing methods in both visual realism and artistic authenticity, typically achieving these
+            results with fewer strokes.
         </p>
         <p class="section">&nbsp;</p>
 
@@ -414,7 +379,7 @@
                                 <tr>
                                     <th><img width="350" src="./static/results/img/f3.png"></th>
                                     <th><img width="350" src="./static/results/paint/f3.gif"></th>
-                                    <th><img width="350" src="./static/results/paint/f3.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f3.jpg"></th>
                                 </tr>
                                 <tr>
                                     <th>
@@ -437,7 +402,7 @@
                                 <tr>
                                     <th><img width="350" src="./static/results/img/f4.png"></th>
                                     <th><img width="350" src="./static/results/paint/f4.gif"></th>
-                                    <th><img width="350" src="./static/results/paint/f4.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f4.jpg"></th>
                                 </tr>
                                 <tr>
                                     <th>
@@ -460,7 +425,7 @@
                                 <tr>
                                     <th><img width="350" src="./static/results/img/f5.png"></th>
                                     <th><img width="350" src="./static/results/paint/f5.gif"></th>
-                                    <th><img width="350" src="./static/results/paint/f5.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f5.jpg"></th>
                                 </tr>
                                 <tr>
                                     <th>
@@ -483,7 +448,7 @@
                                 <tr>
                                     <th><img width="350" src="./static/results/img/f6.png"></th>
                                     <th><img width="350" src="./static/results/paint/f6.gif"></th>
-                                    <th><img width="350" src="./static/results/paint/f6.png"></th>
+                                    <th><img width="350" src="./static/results/paint/f6.jpg"></th>
                                 </tr>
                                 <tr>
                                     <th>
